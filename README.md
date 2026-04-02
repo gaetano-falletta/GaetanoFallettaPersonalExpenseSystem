@@ -6,7 +6,9 @@ flowchart TD
 
     B -- No --> C[Crea Base Dati]
     C --> D{Creazione eseguita?}
-    D -- No --> C
+    D -- No --> H{Vuoi riprovare?}
+    H -- Si --> C
+    H -- No --> G[END]
     D -- Si --> E[Visualizzazione Menu]
 
     B -- Si --> E
