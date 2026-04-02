@@ -1,6 +1,6 @@
 # GaetanoFallettaPersonalExpenseSystem
 GESTIONE DELLE SPESE PERSONALI E DEL BUDGET
-
+```mermaid
 flowchart TD
     A[START] --> B{La base dati esiste?}
 
@@ -18,3 +18,4 @@ flowchart TD
     E --> F5[5 - Esci]
 
     F5 --> G[END]
+```
