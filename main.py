@@ -20,7 +20,7 @@ def q(query):
     return query
 
 # -------------------------------------------------
-# CONFIG FILE
+# File di configurazione
 # -------------------------------------------------
 
 def load_config():
@@ -40,7 +40,7 @@ def save_config(cfg):
 
 
 # -------------------------------------------------
-# DATABASE CHOICE
+# SCELTA DATABASE 
 # -------------------------------------------------
 
 def choose_database():
@@ -81,7 +81,7 @@ def choose_database():
 
 
 # -------------------------------------------------
-# CREATE DATABASE POSTGRES
+# CREA DATABASE POSTGRES
 # -------------------------------------------------
 
 def create_database_if_not_exists(cfg):
@@ -119,7 +119,7 @@ def create_database_if_not_exists(cfg):
 
 
 # -------------------------------------------------
-# CONNECT
+# CONNESSIONE AD DATABASE
 # -------------------------------------------------
 
 def connect_database(cfg):
@@ -145,7 +145,7 @@ def connect_database(cfg):
 
 
 # -------------------------------------------------
-# CREATE TABLES
+# CREA LE TABELLE
 # -------------------------------------------------
 
 def crea_database(conn):
@@ -215,7 +215,7 @@ def crea_database(conn):
 
 
 # -------------------------------------------------
-# TABLE PRINTER
+# VISUALIZZA TABELLE
 # -------------------------------------------------
 
 def mostra_tabella(conn, comandoSql):
